@@ -7,7 +7,7 @@ param (
     [string] $Domain
 )
 # Check required params
-if ([string]::IsNullOrEmpty($required_param)) {
+if ([string]::IsNullOrEmpty($Domain)) {
     Write-Host "Set the Sharepoint domain `n"
     Write-Host "Usage: .\SnaffOnPoint.ps1 DOMAIN"
     exit 1;
