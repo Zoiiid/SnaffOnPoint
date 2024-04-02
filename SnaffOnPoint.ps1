@@ -34,10 +34,6 @@ foreach ($Keyword in $Keywords) {
     # Extract the value using regex
     $Pathmatches = [regex]::Matches($Formatted_Results, $patternPath)
     $Hightlightmatches = [regex]::Matches($Formatted_Results, $patternHighlight)
-    #foreach ($match in $matches) {
-    #    $value = $match.Groups[1].Value
-    #    Write-Host "Found $Keyword at: $value"
-    #}
 
     if ($Hightlightmatches.Count -ne $Pathmatches.Count) {
         throw "Sharepoint fucked something up"
