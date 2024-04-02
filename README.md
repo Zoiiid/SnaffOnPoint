@@ -2,6 +2,6 @@
 SnaffOnPoint is like [SnaffPoint](https://github.com/nheiniger/SnaffPoint) but for on-premise Sharepoint instances :D
 
 # Usage
-Usage: .\SnaffOnPoint.ps1 DOMAIN
+Usage: .\SnaffOnPoint.ps1 DOMAIN FILETYPE
 
 Also big thanks to Alex for helping me with the regular expressions :)
